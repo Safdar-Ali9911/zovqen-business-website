@@ -115,8 +115,36 @@
 
 </div>
 </section>
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <span class="section-label">TESTIMONIALS</span>
+    <h2>What Our Clients <span>Say</span></h2>
 
-   <!-- Contact Section -->
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p>"ZOVQEN helped us create a modern website that looks great and works smoothly."</p>
+            <h3>Ali Khan</h3>
+            <span>Business Owner</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"Their design was simple, professional and easy for our customers to use."</p>
+            <h3>Sara Ahmed</h3>
+            <span>Startup Founder</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"Excellent work! Our website is responsive and looks amazing on mobile devices."</p>
+            <h3>Usman Malik</h3>
+            <span>Shop Owner</span>
+        </div>
+
+    </div>
+</section>
+
+   
+<!-- Contact Section -->
 <section id="contact" class="contact">
 
     <div class="contact-content">
@@ -129,10 +157,50 @@
             Let's discuss how we can help your business grow.
         </p>
 
-        <a href="mailto:hello@zovqen.com" class="btn">Let's Talk</a>
+        <!-- Inquiry Form -->
+        <form id="contact-form" class="contact-form">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Select a Service</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="UI/UX Design">UI/UX Design</option>
+                    <option value="E-Commerce Solutions">E-Commerce Solutions</option>
+                    <option value="Mobile-Friendly Design">Mobile-Friendly Design</option>
+                    <option value="SEO Optimization">SEO Optimization</option>
+                    <option value="Website Maintenance">Website Maintenance</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message"
+                          placeholder="Tell us about your project..."
+                          rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Inquiry</button>
+
+        </form>
+
     </div>
 
 </section>
+
 
    <!-- Footer -->
 <footer class="footer">
