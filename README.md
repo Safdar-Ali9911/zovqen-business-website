@@ -1,41 +1,59 @@
 # ZOVQEN – Digital Solutions
 
-A responsive business website developed as part of my web development internship.
-
-## About the Project
-
-ZOVQEN is a fictional digital solutions company website designed to present digital services through a clean, modern, and responsive layout.
+A responsive business website built using HTML, CSS, and JavaScript for a fictional digital solutions company.
 
 ## Features
 
-- Home section
+- Responsive website design
+- Navigation menu
+- JavaScript mobile menu
+- Services section with six services
 - About section
-- Services section
-- Contact section
-- Responsive navigation bar
-- Mobile menu using JavaScript
-- Active navigation highlighting while scrolling
-- Responsive service cards
-- Organized footer
+- Customer inquiry form with basic validation
+- Testimonials section with three sample reviews
+- Responsive layout for desktop, tablet, and mobile
+- Modern dark-themed UI
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
+- Font Awesome
 
 ## Project Structure
 
-- `index.html` – Website structure
-- `style.css` – Website styling and responsive design
-- `script.js` – Interactive functionality
+Zovqen/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── screenshots/
+    ├── desktop.png
+    └── mobile.png
 
-## Internship Task
+## Week 1
 
-Intermediate Task 2: Responsive Business Website – Initial Development
+Created the initial responsive business website, including Home, About, Services, and Contact sections with navigation and responsive styling.
 
-Developed as part of my web development internship.
+## Week 2 Improvements
 
----
+- Improved Services section
+- Verified navigation functionality
+- Tested mobile navigation menu
+- Added customer inquiry form with validation
+- Added three sample testimonials
+- Tested website on desktop, tablet, and mobile screen sizes
+- Fixed layout and styling issues
 
-© 2026 ZOVQEN – Digital Solutions
+## Screenshots
+
+### Desktop View
+![Desktop Screenshot](screenshots/desktop.png)
+
+### Mobile View
+![Mobile Screenshot](screenshots/mobile.png)
+
+## GitHub Repository
+
+[View Project on GitHub](https://github.com/Safdar-Ali9911/zovqen-business-website)
